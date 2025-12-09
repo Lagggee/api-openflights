@@ -46,11 +46,11 @@ public class AeroportoDataLoader implements CommandLineRunner {
                     try {
                         Aeroporto aeroporto = new Aeroporto();
                         
-                        aeroporto.setIdAeroporto(Integer.parseInt(parts[0]));
-                        aeroporto.setNomeAeroporto(parts[1]);
-                        aeroporto.setCodigoIata(parts[2]);
+                        aeroporto.setId_aeroporto(Integer.parseInt(parts[0]));
+                        aeroporto.setNome_aeroporto(parts[1]);
+                        aeroporto.setCodigo_iata(parts[2]);
                         aeroporto.setCidade(parts[3]);
-                        aeroporto.setCodigoPaisIso(parts[4]);
+                        aeroporto.setCodigo_pais_iso(parts[4]);
                         aeroporto.setLatitude(Double.parseDouble(parts[5]));
                         aeroporto.setLongitude(Double.parseDouble(parts[6]));
                         
