@@ -3,11 +3,11 @@ package com.openflights.openflights_api.models;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
-    
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class aeroportoModel {
+public class Aeroporto {
 
     private Integer id_aeroporto;
 
