@@ -1,4 +1,4 @@
-package com.openflights.openflights_api.Exceptions;
+package com.openflights.openflights_api.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
