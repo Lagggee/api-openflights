@@ -14,16 +14,16 @@ public class aeroportoDTO {
     private Integer idAeroporto; 
 
     @NotBlank(message = "O nome do aeroporto não pode ser vazio.")
-    private String nomeAeroporto;
+    private String nome_aeroporto;
 
     @NotBlank(message = "O código IATA é obrigatório.")
-    private String codigoIata;
+    private String codigo_iata;
 
     @NotBlank(message = "A cidade é obrigatória.")
     private String cidade;
 
     @NotBlank(message = "O código ISO do país é obrigatório.")
-    private String codigoPaisIso;
+    private String codigo_pais_iso;
 
     @NotNull(message = "A latitude é obrigatória.")
     private Double latitude;
